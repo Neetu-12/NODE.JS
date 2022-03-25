@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+#main1{
+height: 2rem;
+width: 113%;
+background-color: rgb(10, 10, 10);
+color: white;
+display: flex;
+justify-content: space-around;
+/* }
+#logo{
+    height:3rem;
+    /* font-size: 4rem; */
+} */
+
+#img1{
+    width: 100%;
+}
+
+
+#img2{
+    height: 5px;
+    width: 5px;
+}

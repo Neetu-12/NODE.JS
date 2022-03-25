@@ -1,0 +1,9 @@
+<script>
+   async function num(){
+        // var response =await fetch("https://jsonplaceholder.typicode.com/users");
+        // var user=await response.json()
+        // in one line code like given in below....!!!
+        return (await fetch("https://jsonplaceholder.typicode.com/users")).json()
+    }
+    num().then((e)=>{console.log(e)}).catch((error)=>{console.log(error);})
+</script>

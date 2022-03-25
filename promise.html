@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<script>
+  let myPromise = new Promise((resolve, reject) => {
+  let data;
+  setTimeout(() => {
+    data = "Some payload";
+
+if (data) {
+  resolve(data);
+} else {
+  reject();
+}
+
+myPromise.then(data => {
+  console.log('Received: ' + data);
+}).catch(() => {
+  console.log("There was an error");
+});
+  // // let myPromise = new Promise((resolve, reject) => {
+  // //     let data;
+  // //     setTimeout(() => {
+  // //       data = "Some payload";
+    
+  // //   if (data) {
+  // //     resolve(data);
+  // //   } else {
+  // //     reject();
+  // //   }
+  // // })
+  // // })
+  // // console.log(myPromise);
+  // var data="Some payload";
+  // var hen=true;
+  
+  // var myPromise = new Promise((resolve, reject) => {
+
+  // if (hen) {
+  //   resolve();
+  // } else {
+  //   reject();
+  // }
+  // myPromise.then(data => {
+  //   console.log('Received: ' + data);
+  // }).catch(() => {
+  //   console.log("There was an error");
+  // });
+  // // myPromise.then(data => {
+  // //   console.log('Received: ' + data);
+  // //   let moreData = "Another payload";
+  // //   return moreData;
+  // // }).then(data => {
+  // //   console.log(data);
+  // // }).catch(() => {
+  // //   console.log("There was an error");
+  // // });
+  
+
+  })})
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.parent{
+display: flex;
+flex-direction: center;
+}
+#child1{
+    /* border: 3px solid black; */
+    height: 13rem;
+    width: 13rem;
+    background-color: #d33636;
+}
+
+#child2{
+    /* border: 3px solid black; */
+    height: 13rem;
+    width: 13rem;
+    background-color: #2758df;
+}
+
+#child3{
+    /* border: 3px solid black; */
+    height: 13rem;
+    width: 13rem;
+    background-color: #43d336;
+}
